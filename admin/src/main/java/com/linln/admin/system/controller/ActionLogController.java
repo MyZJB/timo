@@ -21,7 +21,7 @@ public class ActionLogController {
     private ActionLogService actionLogService;
 
     /**
-     * 列表页面
+     * 列表页面1
      */
     @GetMapping("/index")
     @RequiresPermissions("system:actionLog:index")
